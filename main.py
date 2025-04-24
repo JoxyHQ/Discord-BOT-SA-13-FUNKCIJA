@@ -29,7 +29,7 @@ def keep_alive():
 
 # Bot configuration
 keep_alive()
-TOKEN = 'your discord token'  # Replace with your actual bot token
+TOKEN = os.environ['TOKEN']
 WELCOME_CHANNEL_ID = 1362000588858069093  # Specific welcome channel ID
 
 # Define intents
